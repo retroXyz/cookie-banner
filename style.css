@@ -1,0 +1,16 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* rootz */
+:root{
+  --hidden: hidden;
+
+/* bodySetup */
+/* items */
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #f2f2f2;
+  overflow-y: var(--hidden);
+}
+  
