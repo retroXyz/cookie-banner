@@ -14,3 +14,51 @@ body{
   overflow-y: var(--hidden);
 }
   
+/* cookieBanner */
+  
+#cookieContainer{
+    position: fixed !important;
+    bottom: -50%;
+    left: 5%;
+    height: 8vh;
+    width: 90%;
+    background: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    z-index: 8;
+    transition: .3s !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#cookieContainer.active{
+    bottom: 4%;
+}
+#cookieContainer #cookiePrgh{
+    color: #707070;
+    margin-top: 24px;
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#cookieContainer #cookiePrgh i{
+    transform: translate(0,3.2%);
+}
+#cookieContainer #agreeBtn{
+    position: absolute;
+    top: 29%;
+    left: 93%;
+    cursor: pointer;
+    color: #707070;
+    border: 1px solid #707070;
+    padding: 5px 20px;
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: none;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: .3s ease;
+}
+#cookieContainer #agreeBtn:hover{
+    color: #fff;
+    background: #707070;
+}
